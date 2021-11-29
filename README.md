@@ -13,5 +13,11 @@ Similarly, the game board itself is represented in GameState by a 2-dimensional 
 java Othello human DumAI (or you might have to include ‘–cp .’ i.e. write java –cp . Othello human DumAI).
 
 This command will create a default 8x8 game board, where a human is player 1 and DumAI is the AI/player 2. The ’human’ argument is a special keyword which activates mouse clicks for a human player. If you would like to play two logics against each other you just have to replace the keyword ’human’ with the IOthelloAI implementation of your choice. The game parameters also allow you to define the size of the game board, e.g. if I would like to play ’AI1’ against ’AI2’ on a 6x6 game board (where ‘AI1’ starts) you can run the game in the following way:
+
 java Othello AI1 AI2 6
-Figure 1 -The initial Othello game board
+
+In order to run my IOthelloAI implementation against the DumAI implementation on a 4x4 board, run the follwing command:
+
+java Othello OthelloAI16 DumAI 4
+
+
